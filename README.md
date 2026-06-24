@@ -8,36 +8,6 @@
 
 ---
 
-## Структура проекта
-
-btc-market-analysis/
-
-│
-
-├── btc_analysis.ipynb      # Основной ноутбук
-
-├── queries.sql             # SQL запросы (опционально)
-
-├── README.md
-
-└── images/
-
-├── btc_price_volume.png
-
-├── btc_rsi.png
-
-├── btc_sma.png
-
-├── btc_levels.png
-
-├── btc_backtest.png
-
-├── btc_seasonality.png
-
-└── btc_breakout_volume.png
-
----
-
 ## Блок 1 — Сбор и подготовка данных
 
 Данные загружены через Binance REST API с помощью библиотеки **ccxt**.  
