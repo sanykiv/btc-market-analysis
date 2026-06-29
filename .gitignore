@@ -1,0 +1,12 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Локальные резервные копии (не часть портфолио)
+*.BACKUP.ipynb
+*.before-council-fixes.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
