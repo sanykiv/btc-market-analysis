@@ -1,0 +1,8 @@
+# Служебные файлы Jupyter и Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Виртуальные окружения
+.venv/
+venv/
