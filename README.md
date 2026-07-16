@@ -3,8 +3,28 @@
 Анализ рыночных данных BTC/USDT через биржевой API.  
 Цель: выявить рыночные неэффективности и проверить торговые гипотезы на исторических данных.
 
-**Стек:** Python, pandas, NumPy, matplotlib, scipy, ccxt, Jupyter  
-**Данные:** Binance REST API через ccxt — 3234 дневных свечи, период 2017–2026 (2 халвинг-цикла)
+**🔗 Live-демо:** https://ВАШ-АДРЕС.streamlit.app  ← интерактивный дашборд, все гипотезы пересчитываются вживую
+**Стек:** Python, pandas, NumPy, matplotlib, scipy, ccxt, Streamlit, Jupyter  
+**Данные:** Binance REST API через ccxt — 3234+ дневных свечи, период 2017–2026 (2 халвинг-цикла)
+
+> В демо можно двигать глубину истории и параметры — и видеть, как гипотеза,
+> незначимая на 2 годах, становится значимой на 9-летней выборке.
+
+---
+
+## Как запустить
+
+**Онлайн:** открой [live-демо](https://ВАШ-АДРЕС.streamlit.app) — ничего ставить не нужно.
+
+**Локально:**
+```bash
+git clone https://github.com/sanykiv/btc-market-analysis.git
+cd btc-market-analysis
+pip install -r requirements.txt
+streamlit run streamlit_app.py     # интерактивный дашборд
+# либо: jupyter notebook btc-market-analysis.ipynb   — исходный анализ
+```
+Данные лежат в `btc_daily.csv` (обновляются кнопкой «Live с Binance» прямо в дашборде).
 
 ---
 
